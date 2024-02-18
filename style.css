@@ -5,6 +5,11 @@ button{
     background-color: aqua;
 }
 img{
-    height: 128px;
-    width: 128px;
+    max-height: 128px;
+    max-width: 128px;
+}
+.options{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap:wrap ;
 }
