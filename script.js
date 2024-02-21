@@ -12,6 +12,7 @@ function calculateWeight(uom) {
     resultEl.innerText = "Loading...."
     if(userWeight){
         let weightToDisplay = userWeight / items[uom];
+        weightToDisplay=weightToDisplay.toFixed(2);
         resultEl.innerText = "You Are " + weightToDisplay + " " + uom + " heavy!";    
     }else{
     resultEl.innerText = "Please Enter your weight"
