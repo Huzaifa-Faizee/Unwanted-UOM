@@ -1,15 +1,69 @@
-body{
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+
+body {
     text-align: center;
+    font-family: "Source Code Pro", monospace;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    background-color: #f1f0eb;
+    /* color: #4056a1; */
+    color: #000;
 }
-button{
-    background-color: aqua;
+
+h1 {
+    letter-spacing: 2px;
+    font-size: 70px;
+    margin: 40px
 }
-img{
+
+h2 {
+    color: #4056a1;
+}
+
+label {
+    font-size: 30px;
+}
+
+button {
+    background-color: transparent;
+    /* border: 8px solid #05386b; */
+    border: 8px solid #d79922;
+    border-radius: 100px;
+    cursor: pointer;
+}
+
+input {
+    padding: 11px;
+    font-size: 20px;
+    border: 2px solid;
+    width: 235px;
+    margin: 10px;
+}
+
+.result {
+    font-size: 30px;
+    margin: 10px;
+}
+
+img {
     max-height: 128px;
     max-width: 128px;
+
 }
-.options{
+
+.options {
     display: flex;
     justify-content: space-between;
-    flex-wrap:wrap ;
+    flex-wrap: wrap;
+}
+
+.options button {
+    flex-basis: calc(33.33% - 10px);
+    margin-bottom: 20px;
+}
+
+.options button img {
+    max-width: 100%;
+    height: auto;
 }
