@@ -6,7 +6,8 @@ let items = {
     'vaccum cleaners': 6,
     'mobile phones': 0.14,
     'water melons': 16,
-    'drums': 29
+    'drums': 29,
+    'pillows': 2
 }
 function calculateWeight(uom) {
     let userWeight = document.getElementById('weight').value;
